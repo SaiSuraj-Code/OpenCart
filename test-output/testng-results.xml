@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-23T06:41:16 IST" name="Suite" finished-at="2025-07-23T06:41:35 IST" duration-ms="19823">
+    <groups>
+      <group name="Master">
+        <method signature="TC002_LoginTestCase.VerifyLogin()[pri:0, instance:testCases.TC002_LoginTestCase@600b90df]" name="VerifyLogin" class="testCases.TC002_LoginTestCase"/>
+        <method signature="TC002_LoginTestCase.VerifyLogin()[pri:0, instance:testCases.TC002_LoginTestCase@4b41dd5c]" name="VerifyLogin" class="testCases.TC002_LoginTestCase"/>
+        <method signature="TC002_LoginTestCase.VerifyLogin()[pri:0, instance:testCases.TC002_LoginTestCase@5ba88be8]" name="VerifyLogin" class="testCases.TC002_LoginTestCase"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTestCase.VerifyLogin()[pri:0, instance:testCases.TC002_LoginTestCase@600b90df]" name="VerifyLogin" class="testCases.TC002_LoginTestCase"/>
+        <method signature="TC002_LoginTestCase.VerifyLogin()[pri:0, instance:testCases.TC002_LoginTestCase@4b41dd5c]" name="VerifyLogin" class="testCases.TC002_LoginTestCase"/>
+        <method signature="TC002_LoginTestCase.VerifyLogin()[pri:0, instance:testCases.TC002_LoginTestCase@5ba88be8]" name="VerifyLogin" class="testCases.TC002_LoginTestCase"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2025-07-23T06:41:16 IST" name="Test1" finished-at="2025-07-23T06:41:21 IST" duration-ms="5735">
+      <class name="testCases.TC002_LoginTestCase">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTestCase@600b90df]" started-at="2025-07-23T06:41:16 IST" name="Setup" finished-at="2025-07-23T06:41:19 IST" duration-ms="3085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyLogin()[pri:0, instance:testCases.TC002_LoginTestCase@600b90df]" started-at="2025-07-23T06:41:19 IST" name="VerifyLogin" finished-at="2025-07-23T06:41:21 IST" duration-ms="2149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTestCase@600b90df]" started-at="2025-07-23T06:41:21 IST" name="tearDown" finished-at="2025-07-23T06:41:21 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_LoginTestCase -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-07-23T06:41:21 IST" name="Test2" finished-at="2025-07-23T06:41:26 IST" duration-ms="4886">
+      <class name="testCases.TC002_LoginTestCase">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTestCase@4b41dd5c]" started-at="2025-07-23T06:41:21 IST" name="Setup" finished-at="2025-07-23T06:41:24 IST" duration-ms="2312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyLogin()[pri:0, instance:testCases.TC002_LoginTestCase@4b41dd5c]" started-at="2025-07-23T06:41:24 IST" name="VerifyLogin" finished-at="2025-07-23T06:41:26 IST" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTestCase@4b41dd5c]" started-at="2025-07-23T06:41:26 IST" name="tearDown" finished-at="2025-07-23T06:41:26 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_LoginTestCase -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-07-23T06:41:26 IST" name="Test3" finished-at="2025-07-23T06:41:35 IST" duration-ms="9157">
+      <class name="testCases.TC002_LoginTestCase">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTestCase@5ba88be8]" started-at="2025-07-23T06:41:26 IST" name="Setup" finished-at="2025-07-23T06:41:32 IST" duration-ms="5965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyLogin()[pri:0, instance:testCases.TC002_LoginTestCase@5ba88be8]" started-at="2025-07-23T06:41:32 IST" name="VerifyLogin" finished-at="2025-07-23T06:41:34 IST" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTestCase@5ba88be8]" started-at="2025-07-23T06:41:34 IST" name="tearDown" finished-at="2025-07-23T06:41:35 IST" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_LoginTestCase -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
